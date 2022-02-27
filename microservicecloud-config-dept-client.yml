@@ -57,8 +57,7 @@ spring:
       initial-size: 5
       max-total: 5
       max-wait-millis: 200  
-  
-  
+
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
   type-aliases-package: com.alhz.entity    # 所有Entity别名类所在包
